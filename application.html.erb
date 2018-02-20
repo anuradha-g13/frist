@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pro</title>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+  	
+  	<FORM action="#" >
+  	
+
+    <P>
+    <LABEL for="firstname">name </LABEL>
+              <INPUT type="text" id="Username"><BR>
+    <LABEL for="lastname">email </LABEL>
+              <INPUT type="text" id="email"><BR>
+      <LABEL for="lastname">mob </LABEL>
+              <INPUT type="text" id="mob"><BR>
+     <LABEL for="lastname">members</LABEL>
+              <INPUT type="text" id="members"><BR>
+        <INPUT type="submit" value="Send"> <INPUT type="reset">
+    </P>
+ </FORM>
+
+    <%= yield %>
+  </body>
+</html>

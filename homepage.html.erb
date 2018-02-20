@@ -1,0 +1,25 @@
+<h1>Wellcome#homepage</h1>
+
+
+    <h1> 
+ page
+</h1>
+<%=form_tag sessions_path do %>
+<div class="field">
+<%=label_tag :name  %><br>
+<%$+ text_field_tag :name, params[:;uname]%>
+</div>
+<div class="field">
+<%=label_tag :email  %><br>
+<%$+ text_field_tag :email, params[:;email]%>
+</div>
+<div class="field">
+<%=label_tag :mob  %><br>
+<%$+ text_field_tag :mob, params[:;mob]%>
+</div>
+<div class="field">
+<%=label_tag :memder  %><br>
+<%$+ text_field_tag :member, params[:;member]%>
+</div>
+<div class="actions"><%=submit_tag "submit "%></div>
+<% end %>
